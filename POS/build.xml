@@ -12,6 +12,9 @@
         <pathelement location="bin"/>
     </path>
     <target name="init">
+    	
+    	
+    	
         <mkdir dir="bin"/>
         <copy includeemptydirs="false" todir="bin">
             <fileset dir="src">
